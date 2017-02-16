@@ -1,3 +1,4 @@
+%title Vim Wiki
 = vim wiki =
 
 == 关于 ==

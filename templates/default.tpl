@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <title>%title%</title>
     <link rel="stylesheet" href="%root_path%style.css">
+    <link rel="icon" type="image/png" href="%root_path%/vim-wiki/favicon.png">
   </head>
   <body>
     <div id="header">
       <ul id="top-nav">
-        <li><a href="%root_path%/">ZCODES</a></li>
+        <li><a href="http://zcodes.net">ZCODES</a></li>
         <li><a href="%root_path%/vim-wiki/">Vim-Wiki</a></li>
       </ul>
     </div>

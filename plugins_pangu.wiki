@@ -1,3 +1,5 @@
+%title pangu.vim
+
 = 盘古之白 =
 
 盘古之白是针对 [[https://github.com/mzlogin/chinese-copywriting-guidelines|《中文文案排版指北》]] 的辅助插件，可以自动对不规范的格式做一些转换，比如给中文和英文之间添加空格。

@@ -1,3 +1,5 @@
+%title VimWiki
+
 = Vimwiki =
 
 [[https://vimwiki.github.io|Vimwiki]] 是基于 Vim 的个人维基插件，可以用来管理和组织笔记、想法、待办事件、文档、日记，并且可以轻松的将这些内容转换成 HTML。
