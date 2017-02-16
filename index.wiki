@@ -1,11 +1,18 @@
 = vim wiki =
 
-== 基本内容 ==
+== 关于 ==
+
+这是一份使用 [[https://github.com/vimwiki/vimwiki|vimwiki]] 做的关于 vim 的 wiki，项目地址：[[https://github.com/zcodes/vim-wiki|zcodes/vim-wiki]]。发布的 html 内容使用 [[https://github.com/zcodes/vim-wiki|zcodes/vim-wiki]] 的 gh-pages 分支，并且托管在 Github 上。
+
+Wiki 页面的样式参考 [[https://xstarcd.github.io/wiki/index.html|Xstar's Wiki]]，做了简单的调整，在此谢过 Xstar。
+
+== Vim 安装 ==
+
+== Vim 基本使用 ==
 * [[base_get_help|获取帮助]]
 
-== 安装 ==
-
-== 插件 ==
+== Vim 插件精选 ==
 * [[plugins_vimwiki|Vimwiki]]
 * [[plugins_pangu|盘古之白]]
 
+== Vim 传送门 ==
