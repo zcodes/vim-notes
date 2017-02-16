@@ -9,7 +9,7 @@
     <div id="header">
       <ul id="top-nav">
         <li><a href="%root_path%/">ZCODES</a></li>
-        <li><a href="%root_path%vim-wiki/">Vim-Wiki</a></li>
+        <li><a href="%root_path%/vim-wiki/">Vim-Wiki</a></li>
       </ul>
     </div>
     <div id="content">
