@@ -9,11 +9,30 @@ Wiki 页面的样式参考 [[https://xstarcd.github.io/wiki/index.html|Xstar's W
 
 == Vim 安装 ==
 
+=== Windows 安装 Vim ===
+=== Ubuntu 安装 Vim ===
+
+Ubuntu/Debian 提供了好几种方式 Vim 包，比如 vim, vim-gtk, vim-gnome, vim-nox。其中 vim-nox 不带 GUI（不能使用 gvim），vim-gtk，vim-gnome 带有 GUI。
+
+{{{
+# 可以自己选择 vim-gtk，vim-gnome，vim-nox，下面只是不同的包管理程序。
+#
+# sudo apt-get install vim-gtk
+# 或者
+# sudo aptitude install vim-gtk
+# 或者
+# sudo apt install vim-gtk
+}}}
+
+=== 自己编译 Vim ===
+
 == Vim 基本使用 ==
 * [[base_get_help|获取帮助]]
+* [[base_python|Vim Python 支持]]
 
 == Vim 插件精选 ==
-* [[plugins_vimwiki|Vimwiki]]
-* [[plugins_pangu|盘古之白]]
+* [[plugins_vimwiki|vimwiki]]
+* [[plugins_pangu|pangu.vim]]
+* [[plugin_python-mode|python-mode.vim]]
 
 == Vim 传送门 ==

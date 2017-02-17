@@ -1,0 +1,12 @@
+%title Vim Python 支持
+
+== 问题列表 ==
+
+=== Linux 下 Python 的加载 ===
+
+Linux 的 vim 编译 python 支持有三种可能：
+1. 只支持 python: ['+python', '-python3']
+2. 只支持 python3: ['-python', '+python3']
+3. 同时支持 python 和 python3: ['+python/dyn', '+python3/dyn']
+
+在同时支持 python 和 python3 的时候，如果加载了一个版本的 Python，比如 python 后，将无法继续加载 Python3。一般情况下，Linux 发行版中自带的 vim 只支持一个版本的 Python，比如 Ubuntu 14.04 支持 '+python'。可以使用 '--enable-shared' 选项重新自己编译 Python 和 Python3，然后再重新编译 Vim 同时支持 '+python/dyn' 和 '+python/dyn'，这是可以同时加载 Python 和 Python3，但是文档指出会出现崩溃。
