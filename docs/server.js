@@ -11,8 +11,7 @@ var params = {
   open: false,
   ignore: '',
   wait: 1000,
-  entryFile: '/vim-wiki/',
-  mount: [['/vim-wiki/', './']],
+  mount: [['/vim-notes/', './']],
   logLevel: 2,
   middleware: [function(req, res, next) { next(); }]
 };
