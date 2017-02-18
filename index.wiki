@@ -1,4 +1,5 @@
 %title Vim Wiki
+
 = vim wiki =
 
 == 关于 ==
@@ -11,9 +12,20 @@ Wiki 页面的样式参考 [[https://xstarcd.github.io/wiki/index.html|Xstar's W
 
 == Vim 基本使用 ==
 * [[base_get_help|获取帮助]]
+* [[base_tips|奇淫技巧]]
 
 == Vim 插件精选 ==
 * [[plugins_vimwiki|Vimwiki]]
 * [[plugins_pangu|盘古之白]]
 
 == Vim 传送门 ==
+* [[http://learnvimscriptthehardway.stevelosh.com/|Learn Vim Script the Hard Way]]
+* [[http://rayninfo.co.uk/vimtips.html|Best of Vim Tips]]
+
+== 知乎关于 Vim 的话题 ==
+* [[https://www.zhihu.com/question/27478597|Vim 有什么奇淫技巧？]]
+* [[https://www.zhihu.com/question/46892579|Vim 是否能提高编码效率？]]
+* [[https://www.zhihu.com/question/20151659|到底 Vim 能配置到多强大的程度？]]
+* [[https://www.zhihu.com/question/19870551|Vim 比起 IDE 的优势是什么？]]
+
+== Vim 配置推荐 ==
