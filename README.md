@@ -1,3 +1,12 @@
-# vim-wiki
+# vim-notes
 
-使用 Vimwiki 做的 Vim 的 wiki，记录日常整理和发现的与 Vim 相关内容。发布的内容请跳转: [](https://zcodes.net/vim-wiki) 。
+使用 Vimwiki 做的 Vim 笔记，记录日常中与 Vim 相关内容，HTML 文档请跳转: [http://zcodes.net/vim-notes](http://zcodes.net/vim-notes)。
+
+## 本地查看文档
+
+```bash
+cd docs
+npm install
+node server.js
+```
+然后用浏览器打开: [http://localhost:8000](http://localhost:8000)

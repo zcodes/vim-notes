@@ -4,7 +4,7 @@
 
 == 关于 ==
 
-这是一份使用 [[https://github.com/vimwiki/vimwiki|vimwiki]] 管理的与 Vim 相关的日常笔记，项目地址：[[https://github.com/zcodes/vim-wiki|zcodes/vim-notes]]。发布的 html 内容使用 [[https://github.com/zcodes/vim-notes|zcodes/vim-notes]] 的 gh-pages 分支，并且托管在 Github 上。
+这是一份使用 [[https://github.com/vimwiki/vimwiki|vimwiki]] 管理的与 Vim 相关的日常笔记，项目地址：[[https://github.com/zcodes/vim-wiki|zcodes/vim-notes]]。发布的 html 内容在 `docs` 目录下，并且托管在 Github 上。
 
 笔记页面的样式参考 [[https://xstarcd.github.io/wiki/index.html|Xstar's Wiki]]，做了简单的调整，在此谢过 Xstar。
 
@@ -42,4 +42,15 @@
 * [[https://www.zhihu.com/question/19870551|Vim 比起 IDE 的优势是什么？]]
 
 == Vim 配置推荐 ==
+=== space vim 系列 ===
 
+受 Emacs 的 Spacemacs 影响，vim 的 Space 都成一个系列了。
+
+1. [[https://github.com/liuchengxu/space-vim|space-vim]]
+2. [[https://github.com/SpaceVim/SpaceVim|SpaceVim]]
+
+=== 其他 ===
+1. [[https://github.com/spf13/spf13-vim|spf13-vim]]
+
+=== 额... ===
+这些配置我只能参考一下了，硬生生地改习惯真的很难...

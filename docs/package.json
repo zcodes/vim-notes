@@ -1,0 +1,22 @@
+{
+  "name": "vim-wiki",
+  "version": "1.0.0",
+  "description": "这是 Vim-wiki 的发布分支: http://zcodes.net/vim-wiki",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zcodes/vim-wiki.git"
+  },
+  "author": "zcodes <zcodes@163.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zcodes/vim-wiki/issues"
+  },
+  "homepage": "https://github.com/zcodes/vim-wiki",
+  "dependencies": {
+    "live-server": "^1.2.0"
+  }
+}
