@@ -4,30 +4,24 @@
 
 == 关于 ==
 
-这是一份使用 [[https://github.com/vimwiki/vimwiki|vimwiki]] 做的关于 vim 的 wiki，项目地址：[[https://github.com/zcodes/vim-wiki|zcodes/vim-wiki]]。发布的 html 内容使用 [[https://github.com/zcodes/vim-wiki|zcodes/vim-wiki]] 的 gh-pages 分支，并且托管在 Github 上。
+这是一份使用 [[https://github.com/vimwiki/vimwiki|vimwiki]] 管理的与 Vim 相关的日常笔记，项目地址：[[https://github.com/zcodes/vim-wiki|zcodes/vim-notes]]。发布的 html 内容使用 [[https://github.com/zcodes/vim-notes|zcodes/vim-notes]] 的 gh-pages 分支，并且托管在 Github 上。
 
-Wiki 页面的样式参考 [[https://xstarcd.github.io/wiki/index.html|Xstar's Wiki]]，做了简单的调整，在此谢过 Xstar。
+笔记页面的样式参考 [[https://xstarcd.github.io/wiki/index.html|Xstar's Wiki]]，做了简单的调整，在此谢过 Xstar。
 
-== Vim 安装 ==
+关于笔记的内容在此事先声明，谨防三观被毁（鉴于我向来三观不正）：
 
-=== Windows 安装 Vim ===
-=== Ubuntu 安装 Vim ===
-
-Ubuntu/Debian 提供了好几种方式 Vim 包，比如 vim, vim-gtk, vim-gnome, vim-nox。其中 vim-nox 不带 GUI（不能使用 gvim），vim-gtk，vim-gnome 带有 GUI。
-
-{{{
-# 可以自己选择 vim-gtk，vim-gnome，vim-nox，下面只是不同的包管理程序。
-#
-# sudo apt-get install vim-gtk
-# 或者
-# sudo aptitude install vim-gtk
-# 或者
-# sudo apt install vim-gtk
-}}}
-
-=== 自己编译 Vim ===
+1. 没有关于 Vim 好于不好（牛逼与否）的内容。
+2. 没有可以带给你惊喜的内容（惊喜已经存在于`:h`中）。
+3. 没有让你成为 Vim 高手的内容（我不是高手，不想也不可能成为高手）。
+4. 不要为了学习 Vim 而学习 Vim，不要为了使用 Vim 而使用 Vim。
+5. 不要把大脑当成存储器去存储那些命令和按键，用肌肉存储会好一点。
+6. 不要试图用 vim 去解决所有问题，以免所有都变成问题。
+7. 不要试图去说服任何人和物使用 Vim 或者放弃使用 Vim。
+8. 不要简单的认为 Vim 就是一个 Editor，也不要复杂的认为 Vim 不是一个 Editor。
+9. 不要轻易的相信任何人说的话，相信自己的感觉。
 
 == Vim 基本使用 ==
+* [[base_install|安装 Vim]]
 * [[base_get_help|获取帮助]]
 * [[base_tips|奇淫技巧]]
 * [[base_python|Vim Python 支持]]
@@ -48,3 +42,4 @@ Ubuntu/Debian 提供了好几种方式 Vim 包，比如 vim, vim-gtk, vim-gnome,
 * [[https://www.zhihu.com/question/19870551|Vim 比起 IDE 的优势是什么？]]
 
 == Vim 配置推荐 ==
+

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+  <head>
+    <meta charset="UTF-8">
+    <title>Vim Python 支持</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="/vim-wiki/favicon.png">
+  </head>
+  <body>
+    <div id="header">
+      <ul id="top-nav">
+        <li><a href="http://zcodes.net">ZCODES</a></li>
+        <li><a href="/vim-wiki/">Vim-Wiki</a></li>
+      </ul>
+    </div>
+    <div id="content">
+      
+
+<div id="问题列表"><h2 id="问题列表">问题列表</h2></div>
+
+<div id="问题列表-Linux 下 Python 的加载"><h3 id="Linux 下 Python 的加载">Linux 下 Python 的加载</h3></div>
+
+<p>
+Linux 的 vim 编译 python 支持有三种可能：
+</p>
+<ol>
+<li>
+只支持 python: ['+python', '-python3']
+
+<li>
+只支持 python3: ['-python', '+python3']
+
+<li>
+同时支持 python 和 python3: ['+python/dyn', '+python3/dyn']
+
+</ol>
+
+<p>
+在同时支持 python 和 python3 的时候，如果加载了一个版本的 Python，比如 python 后，将无法继续加载 Python3。一般情况下，Linux 发行版中自带的 vim 只支持一个版本的 Python，比如 Ubuntu 14.04 支持 '+python'。可以使用 '--enable-shared' 选项重新自己编译 Python 和 Python3，然后再重新编译 Vim 同时支持 '+python/dyn' 和 '+python/dyn'，这是可以同时加载 Python 和 Python3，但是文档指出会出现崩溃。
+</p>
+
+    </div>
+    <div id="footer">
+      <p>&copy; 2017 ZCODES</p>
+      <p>Powered by Vimwiki@Github Pages</p>
+    </div>
+  </body>
+</html>
+<!--
+vim:ft=html:st=2:sts=2:sw=2:et:
+-->

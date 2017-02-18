@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+  <head>
+    <meta charset="UTF-8">
+    <title>pangu.vim</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="/vim-wiki/favicon.png">
+  </head>
+  <body>
+    <div id="header">
+      <ul id="top-nav">
+        <li><a href="http://zcodes.net">ZCODES</a></li>
+        <li><a href="/vim-wiki/">Vim-Wiki</a></li>
+      </ul>
+    </div>
+    <div id="content">
+      
+
+<div id="盘古之白"><h1 id="盘古之白">盘古之白</h1></div>
+
+<p>
+盘古之白是针对 <a href="https:&#47;&#47;github.com&#47;mzlogin&#47;chinese-copywriting-guidelines">《中文文案排版指北》</a> 的辅助插件，可以自动对不规范的格式做一些转换，比如给中文和英文之间添加空格。
+</p>
+
+<div id="盘古之白-pangu.vim"><h2 id="pangu.vim">pangu.vim</h2></div>
+
+<p>
+插件地址: <a href="https:&#47;&#47;github.com&#47;zcodes&#47;pangu.vim">pangu.vim</a>
+</p>
+
+<p>
+这是在原来插件基础上做减法的一个分支，原来的插件有点“激进”，对一些情况在无法判断的基础上做出了强制的转换，导致某些情况下会出错误，或是改变编辑者的原意。作为一个编辑器插件，此处遵循的准则是：功能可以没有，但是不能是一个错误的功能。
+</p>
+
+<pre class="brush: vimwiki">
+%% 这两种情况下无需处理，而不是强制处理
+[[hello|中文]]
+https://www.baidu.com/s?wd=中文&amp;lang=中文
+</pre>
+
+    </div>
+    <div id="footer">
+      <p>&copy; 2017 ZCODES</p>
+      <p>Powered by Vimwiki@Github Pages</p>
+    </div>
+  </body>
+</html>
+<!--
+vim:ft=html:st=2:sts=2:sw=2:et:
+-->

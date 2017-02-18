@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+  <head>
+    <meta charset="UTF-8">
+    <title>Vim 安装</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="/vim-wiki/favicon.png">
+  </head>
+  <body>
+    <div id="header">
+      <ul id="top-nav">
+        <li><a href="http://zcodes.net">ZCODES</a></li>
+        <li><a href="/vim-wiki/">Vim-Wiki</a></li>
+      </ul>
+    </div>
+    <div id="content">
+      
+
+<div id="安装 Vim"><h2 id="安装 Vim">安装 Vim</h2></div>
+
+<div id="安装 Vim-Windows 安装 Vim"><h3 id="Windows 安装 Vim">Windows 安装 Vim</h3></div>
+<p>
+Windows 下安装 Vim 可以在 Github 上下载预先编译的 Vim：<a href="https:&#47;&#47;github.com&#47;vim&#47;vim-win32-installer&#47;releases">下载地址</a>。如果需要相应的语言扩展，下载和安装相应的编程语言，比如 Python 或是 ActivePerl。
+</p>
+<div id="安装 Vim-Ubuntu 安装 Vim"><h3 id="Ubuntu 安装 Vim">Ubuntu 安装 Vim</h3></div>
+
+<p>
+Ubuntu/Debian 提供了好几种方式 Vim 包，比如 vim, vim-gtk, vim-gnome, vim-nox。其中 vim-nox 不带 GUI（不能使用 gvim），vim-gtk，vim-gnome 带有 GUI。
+</p>
+
+<pre>
+# 可以自己选择 vim-gtk，vim-gnome，vim-nox，下面只是不同的包管理程序。
+#
+# sudo apt-get install vim-gtk
+# 或者
+# sudo aptitude install vim-gtk
+# 或者
+# sudo apt install vim-gtk
+</pre>
+
+<div id="安装 Vim-自己编译 Vim"><h3 id="自己编译 Vim">自己编译 Vim</h3></div>
+<div id="安装 Vim-自己编译 Vim-Windows 下编译 Vim"><h4 id="Windows 下编译 Vim">Windows 下编译 Vim</h4></div>
+
+<p>
+这里以 Windows 10 x64 + Visual Studio 2015 来编译 Vim 为例。
+</p>
+
+<p>
+首先下载 Vim 的源码，源码地址: <a href="https:&#47;&#47;github.com&#47;vim&#47;vim">https://github.com/vim/vim</a>，也可以使用 git 克隆一下。然后打开 Visual Studio 的 <code>VS2015 x64 Native Tools Command Prompt</code>，如果安装了 Visual Studio 可以在开始菜单中找到快捷方式。跳转到 Vim 代码的 src 目录下，使用如下内容编译（为了每次编译方便，我写成了一个 bat 脚本）。
+</p>
+
+<p>
+<code>vs2015.bat</code>
+</p>
+
+<pre>
+@echo off
+
+set FEATURES=HUGE
+
+rem default TARGETOS is WINNT now !
+rem set TARGETOS=WINNT
+
+set GUI=yes
+set DIRECTX=yes
+
+set OLE=yes
+set MBYTE=yes
+set IME=yes
+set GIME=yes
+set CPUNR=pentium4
+set WINVER=0x0600
+set ANALYZE=yes
+set CSCOPE=yes
+set CHANNEL=yes
+set XPM=no
+
+rem Python Support
+set PYTHON=C:\Python27
+set PYTHON_VER=27
+set DYNAMIC_PYTHON=yes
+
+rem Python3 Support
+set PYTHON3=C:\Python35
+set PYTHON3_VER=35
+set DYNAMIC_PYTHON3=yes
+
+nmake -f Make_mvc.mak %1
+</pre>
+
+<p>
+这个脚本中只启用了 Python 和 Python3 的支持，其他编程语言的支持，请自行处理（Make_mvs.mak 文件的注释中有具体介绍）。
+</p>
+
+    </div>
+    <div id="footer">
+      <p>&copy; 2017 ZCODES</p>
+      <p>Powered by Vimwiki@Github Pages</p>
+    </div>
+  </body>
+</html>
+<!--
+vim:ft=html:st=2:sts=2:sw=2:et:
+-->
