@@ -8,17 +8,13 @@
 
 笔记页面的样式参考 [[https://xstarcd.github.io/wiki/index.html|Xstar's Wiki]]，做了简单的调整，在此谢过 Xstar。
 
-关于笔记的内容在此事先声明，谨防三观被毁（鉴于我向来三观不正）：
+== Vim 是什么？ ==
 
-1. 没有关于 Vim 好于不好（牛逼与否）的内容。
-2. 没有可以带给你惊喜的内容（惊喜已经存在于`:h`中）。
-3. 没有让你成为 Vim 高手的内容（我不是高手，不想也不可能成为高手）。
-4. 不要为了学习 Vim 而学习 Vim，不要为了使用 Vim 而使用 Vim。
-5. 不要把大脑当成存储器去存储那些命令和按键，用肌肉存储会好一点。
-6. 不要试图用 vim 去解决所有问题，以免所有都变成问题。
-7. 不要试图去说服任何人和物使用 Vim 或者放弃使用 Vim。
-8. 不要简单的认为 Vim 就是一个 Editor，也不要复杂的认为 Vim 不是一个 Editor。
-9. 不要轻易的相信任何人说的话，相信自己的感觉。
+Vim 是一个 Vi 系的文本编辑器（Text Editor），详细的定义可参考维基百科：[[https://en.wikipedia.org/wiki/Vim_(text_editor)|Vim (text editor)]]。如果还想知道更多，请跳转: [[https://github.com/mhinz/vim-galore|VIM-GALORE - Everything you need to known about vim]]。
+
+* Vim 官网: [[http://www.vim.org]]
+* Vim 项目地址: [[https://github.com/vim/vim]]
+* Vim 作者: https://en.wikipedia.org/wiki/Bram_Moolenaar
 
 == Vim 基本使用 ==
 * [[base_install|安装 Vim]]
@@ -31,9 +27,18 @@
 * [[plugins_pangu|pangu.vim]]
 * [[plugin_python-mode|python-mode.vim]]
 
-== Vim 传送门 ==
-* [[http://learnvimscriptthehardway.stevelosh.com/|Learn Vim Script the Hard Way]]
+== Vim 资料 ==
+
+=== 网络资料 ===
+* [[https://en.wikipedia.org/wiki/Vim_(text_editor)|Vim 维基百科词条]]
+* [[https://github.com/mhinz/vim-galore|vim-galore]]
 * [[http://rayninfo.co.uk/vimtips.html|Best of Vim Tips]]
+* [[http://vim.wikia.com/wiki/Vim_Tips_Wiki|Vim_Tips_Wiki]]
+
+=== Vim 相关的书 ===
+* [[http://learnvimscriptthehardway.stevelosh.com/|《Learn Vim Script the Hard Way》]]
+* 《Hacking Vim》
+* 《Vim 实用技巧》
 
 == 知乎关于 Vim 的话题 ==
 * [[https://www.zhihu.com/question/27478597|Vim 有什么奇淫技巧？]]
@@ -42,14 +47,10 @@
 * [[https://www.zhihu.com/question/19870551|Vim 比起 IDE 的优势是什么？]]
 
 == Vim 配置推荐 ==
-=== space vim 系列 ===
-受 Emacs 的 Spacemacs 影响，vim 也有 Spacevim 了，不过，Vim 的 Space 怎么是一个系列？
+* [[https://github.com/spf13/spf13-vim|spf13/spf13-vim]]
+* [[https://github.com/amix/vimrc|amix/vimrc]]
+* [[https://github.com/wklken/k-vim|wklken/k-vim]]
+* [[https://github.com/ma6174/vim|ma6174/vim]]
+* [[https://github.com/liuchengxu/space-vim|liuchengxu/space-vim]]
+* [[https://github.com/SpaceVim/SpaceVim|SpaceVim/SpaceVim]]
 
-1. [[https://github.com/liuchengxu/space-vim|space-vim]]
-2. [[https://github.com/SpaceVim/SpaceVim|SpaceVim]]
-
-=== 其他 ===
-1. [[https://github.com/spf13/spf13-vim|spf13-vim]]
-
-=== 额 ... ===
-上面都是不错的 Vim 配置，对于入坑没多久的新手来说，完全可以复制（照搬）一份，不过对于老鸟来说，参考一下就好，硬生生的改变习惯似乎有些疼 ......
